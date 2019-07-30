@@ -11,7 +11,7 @@
 
 ## 5. select the folder and import the extension
 
-## 6. goto your favourate 18H comic website
+## 6. goto your favourite 18H comic website
 
 ## 7. click on the extension logo on the top-right corner in chrome.
 
