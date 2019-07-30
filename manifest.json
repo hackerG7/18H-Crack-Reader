@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "18H 漫畫破解器",
+  "version": "0.1",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://18h.animezilla.com/*"
+      ],
+      "js": ["content.js"]
+    }
+  ],
+  "browser_action": {
+  },
+  "icons": { "16": "icon16.png",
+  "48": "icon48.png",
+  "128": "icon128.png" },
+
+  "web_accessible_resources": ["inject.js","startCollect.js"],
+  "permission":["tabs"]
+}
